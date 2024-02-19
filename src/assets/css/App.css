@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body {
+  font-family: "Poppins";
+}
+
+::placeholder {
+  @apply text-gray-200 font-light text-[16px]
+}
+
+.banner-containner{
+  background-image: url('../images/bg.jpeg');
+  @apply bg-center bg-no-repeat bg-cover
+}
